@@ -1,0 +1,58 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #222;
+        }
+
+        .card{
+            width: 350px;
+            background: linear-gradient(135deg, #00feba, #5b548a);
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .search-box{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .search-box input{
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            font-size: 16px;
+        }
+
+        .search-box button{
+            width: 45px;
+            height: 45px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .weather h1{
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+
+        .weather h2{
+            font-size: 30px;
+            font-weight: normal;
+        }
+    
